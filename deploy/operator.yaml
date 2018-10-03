@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: memcached-operator
-          image: REPLACE_IMAGE
+          image: docker.io/dymurray/memcached-operator
           ports:
           - containerPort: 60000
             name: metrics
